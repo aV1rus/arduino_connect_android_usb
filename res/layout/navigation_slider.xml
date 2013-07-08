@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/animation_layout_sidebar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+            android:id="@+id/currentData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+ 			<LinearLayout
+            style="scrollViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+           
+				<LinearLayout
+	            android:id="@+id/nav_layout"
+	            style="scrollViewStyle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            android:orientation="vertical" ></LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <color name="scoreboardfnt">#ffd</color>
+    <color name="nav_background">#BB000075</color>
+    <color name="my_custom_color">#ff1a557c</color>
+    <color name="my_translucent">#00000000</color>
+    <color name="gr_lnk">#FF00FF00</color>
+    <color name="drkbl">#FF0000FF</color>
+    <color name="lghtbl">#A4B3Ff</color>
+    <color name="red">#DD2222</color>
+    <color name="orange">#FFA500</color>
+    
+    <color name="text_color">#31D1F1</color>
+	<color name="white">#ffffff</color>
+</resources>

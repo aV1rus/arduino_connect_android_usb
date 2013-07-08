@@ -1,0 +1,151 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+            android:gravity="center" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/halotextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Halo's" />
+                
+
+                <TextView
+                    android:id="@+id/interiortextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Interior" />
+                
+
+                <TextView
+                    android:id="@+id/fogtextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Fogs" />
+
+            </TableRow>
+<TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/halobright"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="255" />
+                
+
+                <TextView
+                    android:id="@+id/interiobright"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="255" />
+                
+
+                <TextView
+                    android:id="@+id/fogbright"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="255" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/haloBrightUp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_up_float" />
+
+                    <ImageButton
+                        android:id="@+id/haloBrightDown"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_down_float" />
+
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/interiorBrightUp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_up_float" />
+
+                    <ImageButton
+                        android:id="@+id/interiorBrightDown"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_down_float" />
+
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/fogBrightUp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_up_float" />
+
+                    <ImageButton
+                        android:id="@+id/fogBrightDown"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:src="@android:drawable/arrow_down_float" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>

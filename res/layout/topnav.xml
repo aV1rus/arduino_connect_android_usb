@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bluetoothDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/gr_lnk"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickContentButton"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_compass" />
+
+        <CheckBox
+            android:id="@+id/switchs_show"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:button="@drawable/dropdown_selector" />
+
+        <Button
+            android:id="@+id/btn_spk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/buttonred"
+            android:text="command" />
+
+    </LinearLayout>
+ <TextView
+            android:id="@+id/inform"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+</LinearLayout>

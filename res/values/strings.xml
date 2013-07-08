@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arduino Connect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+	<!-- UC Active Notification  -->
+	<string name="title">Arduino Connect</string>
+	<string name="content">Running in background.</string>
+	<string name="ticker">Background Service</string>
+	
+	<string-array name="said_shakira">
+		<item>Yes Captain</item>
+		<item>Yes Sir</item>
+		<item>Yes</item>
+		<item>Yup</item>
+		
+		<item>Ready Captain</item>
+		<item>How can i help you?</item>
+		<item>Thats my name</item>
+		<item>Back so soon?</item>
+		<item>You talking to me?</item>
+		<item>What?</item>
+		<item>Alright already!</item>
+		<item>Systems Ready</item>
+		<item>Ok - you know my name - congrats</item>
+		<item>Why dont we go for a ride?</item>
+		<item>Im bored</item>
+		<item>Finally! Something to do!</item>
+		<item>Are you gonna tell me to turn on your Halos? Always the same thing.</item>
+		<item>Lets blow some shit up!</item>
+	</string-array>
+	
+	<string-array name="said_no">
+	    <item>What did i say wrong?</item>
+		<item>Did i say something wrong?</item>
+		<item>No what?</item>
+		<item>huh?</item>
+		<item>Ok then what?</item>
+		<item>Just saying No doesnt help very much - Can you please be more specific?</item>
+	</string-array>
+	
+	
+	<string-array name="said_bad">
+		<item>The Baddest!</item>
+		<item>You know me!</item>
+		<item>As bad as they get</item>
+		<item>You havent seen nothing yet</item>
+		<item>As bad as you want!</item>
+		<item>Never</item>
+		<item>No, just Evil</item>
+		<item></item>
+	</string-array>
+	
+	<string-array name="said_good">
+		<item>An Angel</item>
+		<item>Only for you</item>
+		<item>only today</item>
+		<item>me? You got the wrong girl!</item>
+		<item>Only to get what i want</item>
+		<item>Not me</item>
+	</string-array>
+	
+	<string-array name="error_not_connected">
+		<item>Please wait while i retry the connection.</item>
+		<item>I am not currently connected</item>
+		<item>Standby while I reconnect</item>
+		<item>Seriously? Give me a sec</item>
+		<item>Connection in 5</item>
+	</string-array>
+	
+	<string-array name="error_vehicle_off">
+		<item>Are trying to be funny?</item>
+		<item>How am I supposed to do that if i do not currently have an RPM to read?</item>
+		<item>Please fire up my engine first</item>
+		<item>Negative</item>
+		<item>Turn me on!</item>
+	</string-array>
+	
+	<string-array name="prepare_battle">
+		<item>Try and mess with this.</item>
+		<item>I will anonymously rip your face off</item>
+		<item>You ready for an ass beating?</item>
+		<item>Affirmative</item>
+		<item>Gods gonna sit this one out</item>
+		<item>Have you ever danced with the devil in the pale moon light?</item>
+		<item>You are one dumb son of a bitch&#8230; Bringing a knife to a gun fight</item>
+		<item>Those who do evil to other - the killers, the rapists, psychos, sadists - you will come to know me well. Sha Key Ra is dead - they call me - the punisher!</item>
+		<item>Do you feel lucky?</item>
+		<item>Guns are too quick - you cant savor all the - little emotions.</item>
+		<item>Go ahead punk - Make my day</item>
+		<item>I aint got time to bleed.</item>
+		<item>Good luck</item>
+		<item>Say hello to my little friend!</item>
+	</string-array>
+	
+	<string-array name="power_down">
+		<item>Confirmed</item>
+		<item>Affirmative</item>
+		<item>OK. But im not shuting down everything.</item>
+		<item>ok</item>
+		<item>Are you leaving?</item>
+		<item>Fine</item>
+	</string-array>
+	
+	<string-array name="error_got_nothing">
+		<item>I got nothing</item>
+		<item>Couldnt hear what you said</item>
+		<item>Are you in a parking deck?</item>
+		<item>You seem to be speaking a different language</item>
+		<item>quit mumbling!</item>
+		<item>Dude - I have no idea what you just said</item>
+		<item>Come back when you learn english</item>
+		<item>What did you say?</item>
+		<item>huh?</item>
+		<item>All i heard is - blah blah blah I cant speak clearly</item>
+		<item>you sound like an idiot.</item>
+		<item>Um - No?</item>
+		<item>Yeh, sorry - Didnt catch that?</item>
+	</string-array>
+	
+	<string-array name="all_halos_activated">
+	    <item>All Halos Activated</item>
+	</string-array>
+	<string-array name="red_halos_activated">
+	    <item>Red Halos Activated</item>
+	</string-array>
+	<string-array name="white_halos_activated">
+	    <item>White Halos Activated</item>
+	</string-array>
+	<string-array name="head_all_halos_activated">
+	    <item>All Head Halos Activated</item>
+	</string-array>
+	<string-array name="head_red_halos_activated">
+	    <item>Red Head Halos Activated</item>
+	</string-array>
+	<string-array name="head_white_halos_activated">
+	    <item>White Head Halos Activated</item>
+	</string-array>
+	<string-array name="fog_all_halos_activated">
+	    <item>All Fog Halos Activated</item>
+	</string-array>
+	<string-array name="fog_red_halos_activated">
+	    <item>Fog Red Halos Activated</item>
+	</string-array>
+	<string-array name="fog_white_halos_activated">
+	    <item>Fog White Halos Activated</item>
+	</string-array>
+	<string-array name="all_halos_deactivated">
+	    <item>All Halos Deactivated</item>
+	</string-array>
+	<string-array name="red_halos_deactivated">
+	    <item>Red Halos Deactivated</item>
+	</string-array>
+	<string-array name="white_halos_deactivated">
+	    <item>White Halos Deactivated</item>
+	</string-array>
+	<string-array name="head_all_halos_deactivated">
+	    <item>All Head Halos Deactivated</item>
+	</string-array>
+	<string-array name="head_red_halos_deactivated">
+	    <item>Red Head Halos Deactivated</item>
+	</string-array>
+	<string-array name="head_white_halos_deactivated">
+	    <item>White Head Halos Deactivated</item>
+	</string-array>
+	<string-array name="fog_all_halos_deactivated">
+	    <item>All Fog Halos Deactivated</item>
+	</string-array>
+	<string-array name="fog_red_halos_deactivated">
+	    <item>Fog Red Halos Deactivated</item>
+	</string-array>
+	<string-array name="fog_white_halos_deactivated">
+	    <item>Fog White Halos Deactivated</item>
+	</string-array>
+	
+	<string-array name="error_no_power_command">
+	    <item>Did you want them on or off?</item>
+	    <item>Turn them on or off?</item>
+	    <item>I didnt hear you say if you wanted them on or off?</item>
+	</string-array>
+	
+	
+	<string-array name="follow_rpm_both">
+	    <item>Affirmative</item>
+	</string-array>
+	<string-array name="follow_rpm_red">
+	    <item>Affirmative</item>
+	</string-array>
+	<string-array name="follow_rpm_white">
+	    <item>Affirmative</item>
+	</string-array>
+	
+	<string-array name="cancel">
+	    <item>cancelled</item>
+	    <item>ok</item>
+	    <item>refreshing state</item>
+	    <item>What else can we do?</item>
+	    <item>Affirmative</item>
+	    <item>10 4</item>
+	</string-array>
+</resources>

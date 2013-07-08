@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<av1rus.arduinoconnect.adk.widget.AnimationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@id/animation_layout_sidebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/navigation_slider" />
+
+    <LinearLayout
+        android:id="@id/animation_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/gradient"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <include
+                        android:id="@+id/layout_head"
+                        android:layout_width="match_parent"
+                        layout="@layout/topnav" />
+
+                    <LinearLayout
+                        android:id="@+id/switches_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TableLayout
+                            android:id="@+id/tlayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="" />
+
+                                <TextView
+                                    android:id="@+id/red"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="Red" />
+
+                                <TextView
+                                    android:id="@+id/white"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="White" />
+
+                                <TextView
+                                    android:id="@+id/both"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="Both" />
+
+                                <TextView
+                                    android:id="@+id/off"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="Off" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="Heads" />
+
+                                <CheckBox
+                                    android:id="@+id/checkHeadRed"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/checkHeadWhite"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/checkHeadBoth"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <Button
+                                    android:id="@+id/btnHeadOff"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Off" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="20dp"
+                                    android:text="Fogs" />
+
+                                <CheckBox
+                                    android:id="@+id/checkFogRed"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/checkFogWhite"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <CheckBox
+                                    android:id="@+id/checkFogBoth"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/onoffcheckbox"
+                                    android:paddingRight="20dp" />
+
+                                <Button
+                                    android:id="@+id/btnFogOff"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Off" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center" >
+
+                            <CheckBox
+                                android:id="@+id/interiorCheck"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/onoffcheckbox"
+                                android:paddingRight="20dp"
+                                android:text="  Interior" />
+
+                            <CheckBox
+                                android:id="@+id/fogCheck"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/onoffcheckbox"
+                                android:text="  Fogs" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" >
+
+                        <TableLayout
+                            android:id="@+id/loglayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+                        </TableLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <com.viewpagerindicator.TitlePageIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+android:id/viewpager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</av1rus.arduinoconnect.adk.widget.AnimationLayout>

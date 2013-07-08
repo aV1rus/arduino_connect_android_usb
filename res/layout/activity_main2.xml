@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<av1rus.arduinoconnect.adk.widget.AnimationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@id/animation_layout_sidebar"
+        layout="@layout/navigation_slider" />
+
+    <LinearLayout
+        android:id="@id/animation_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFF"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/layout_head"
+                layout="@layout/topnav" />
+
+            <TableLayout
+                android:id="@+id/tlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TableLayout>
+            
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableLayout
+                android:id="@+id/loglayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TableLayout>
+            </ScrollView>
+
+           
+
+        </LinearLayout>
+       
+    </LinearLayout>
+
+</av1rus.arduinoconnect.adk.widget.AnimationLayout>
